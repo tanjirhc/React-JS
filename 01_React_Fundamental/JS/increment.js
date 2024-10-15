@@ -1,11 +1,12 @@
 const domContainer = document.querySelector("#root");
 
-// const myElement = React.createElement("div", null, [React.createElement("p", null, "Hello World"),
-//   React.createElement("p", null, "Hello World")
-// ]);
+const myElement = (
+  <div>
+    <h1 id="display">0</h1>
+      <div>
+        <button id="button">Increment +</button>
+      </div>    
+  </div>
+);
 
-// ReactDOM.render(myElement, domContainer);
-
-let p = document.createElement("p");
-p.innerHTML = "Hello World";
-domContainer.appendchild(p);
+ ReactDOM.render(myElement, domContainer);
