@@ -13,8 +13,16 @@ const Increment = () => {
   );
 };
 
+ReactDOM.render(
+  <div className="container">
+    <Increment />
+    <Increment />
+    <Increment />
+  </div>,
+  domContainer
+);
 
- ReactDOM.render(<Increment />, domContainer);
+//  ReactDOM.render(<Increment />, domContainer);
 
 
 
