@@ -14,4 +14,4 @@ const Increment = () => {
 
 
 
- ReactDOM.render(Increment(), domContainer);
+ ReactDOM.render(<Increment />, domContainer);
